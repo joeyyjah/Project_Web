@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Notification</title>
+  <style>
+    .clear {
+      clear: both;
+    }
+    
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    header {
+      width: 100%;
+      height: 80px;
+      line-height: 2em;
+      background-color: #2E3956;
+    }
+    
+    main {
+      width: 100%;
+    }
+    
+    section {
+      text-align: center;
+      width: 250px;
+      height: 100%;
+      display: block;
+      clear: right;
+      float: left;
+      background-color: #406D94;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    /*h1{
+      font-family: arial,sans-serif;
+      font-weight: 400;
+      height: 70px;
+      width: 100%;
+      background-color: #2E3956;
+      line-height: 60px;
+      color: white;
+    }
+    div{
+      width: 250px;
+      height: 666px;
+      background-color: #406D94;
+    }*/
+    
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 30px;
+      padding-right: 60px;
+      font-family: Century Gothic;
+    }
+    
+    ul li {
+      list-style-type: none;
+      display: block;
+      padding: 15px;
+      border-bottom: 1px solid #E2E3DD;
+      
+    }
+    
+    ul li:hover {
+      background: #D7E8E8;
+      transition: linear all 0.40s;
+      margin-left: 10px;
+    }
+    /*div ul li a:hover{
+      color: black;
+    }*/
+    
+    .selected {
+      background: #A8D0D9;
+    }
+    
+    .selected a {
+      color: black;
+    }
+    
+    footer {
+      width: 100%;
+      text-align: center;
+      height: 70px;
+      line-height: 2em;
+      background-color: #2E3956;
+    }
+    
+    aside {
+      width: 70%;
+      text-align: center;
+      float: right;
+      height: 200px;
+      vertical-align: middle;
+      margin: 100px 5px;
+      margin-top: 20px;
+      position: relative;
+    }
+
+    /*nav{
+
+      list-style-type: none;
+      display: block;
+      padding: 15px;
+      border-bottom: 1px solid #E2E3DD;
+      
+      
+
+    }
+*/
+    #nav li ul{ display:none;}
+    #nav li:hover ul{display: block;}
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="Logo.png" style="width: 180px; padding:10px 30px">
+  </header>
+
+  <main>
+    <section>
+      <img src="Logo.png" style="width: 180px; padding:10px 30px">
+
+      <img src="Untitled-4.png" / style="width: 150px; padding: 15px 25px 10px 15px;">
+
+      <ul style="margin-bottom: 0px;" id = "nav">
+        <li class="selected"><a href="#">Dashboard</a></li>
+        <li><a style="text-decoration: none;" href="#">Notification</a>
+          <ul>
+            <li><a href="#">sub-1</a></li>
+            <li><a href="#">sub-2</a></li>
+            <li><a href="#">sub-3</a></li>
+            <li><a href="#">sub-4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Report</a></li>
+        <li><a href="#">Logout</a></li>
+        <li><a href="#">Sign up</a></li>
+      </ul>
+
+    </section>
+
+    <aside>
+      <div style="width: 800px;" class="panel panel-default">
+        <!-- Default panel contents -->
+        <div style="height: 130px; padding: 55px; " class="panel-heading">
+          <h>Notification Lists</h>
+        </div>
+
+        <!-- Table -->
+        <table class="table">
+          <tr>
+            <td>ชื่อ</td>
+            <td>วันที่</td>
+            <td>เวลา</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+          <tr>
+            <td>พรรณภา ชูวา</td>
+            <td>17 มีนาคม 2560</td>
+            <td>11:24 น.</td>
+          </tr>
+
+        </table>
+      </div>
+    </aside>
+    <div class="clear"></div>
+  </main>
+  <div class="clear"></div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
